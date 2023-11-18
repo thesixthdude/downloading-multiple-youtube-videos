@@ -5,7 +5,7 @@ def Download(link):
     youtubeObject = youtubeObject.streams.get_highest_resolution()
     try:
         youtubeObject.download("C:\\Users\\hp\\Downloads\\")
-      #put the path of the folder where you would want the downloaded videos
+      #use the path of the directory where the downloaded videos should be saved
     except:
         print("An error has occurred")
     print("Download successfull")
