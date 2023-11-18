@@ -7,7 +7,7 @@ def Download(link):
         youtubeObject.download("C:\\Users\\hp\\Downloads\\")
       #use the path of the directory where the downloaded videos should be saved
     except:
-        print("An error has occurred")
+        print("ERROR")
     print("Download successfull")
 
 #creating an empty list to store the links of the videos
